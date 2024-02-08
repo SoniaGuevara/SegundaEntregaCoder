@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Home</title>
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!--Header-->
+
+    <header>
+        <nav class="navbar navbar-expand-lg header-principal">
+            <div class="container-fluid">
+                <img src="images/logoDibujo.png" alt="Logo" class="logo-header">
+                <img src="images/logoLetras.png" alt="Logo" class="logo-header-letras" "navbar-brand">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end button_container" id="navbarNav">
+                <ul class="navbar-nav btn">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="IniciarSesion.html">Iniciar Sesión</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<!--Seccion principal-->
+
+<main>
+   
+    <section class="acerca-de-main row text-center content">
+        <div class="col">
+            <p class="titulos">
+                Te damos la bienvenida
+            </p>
+            <p>
+                Si deseas saber si tu medicamento es apto para celíacos, ingresa la información requerida.
+            </p>
+            <img src="images/medicina.png" alt="Comidas Sin Gluten" class="d-block mx-auto justify-content-center">
+            
+           
+        </div>
+        <div class="dudas">
+            <p class="titulos">
+                Completa los datos de búsqueda
+            </p>
+            <p>
+                <form>
+                    <div class="mb-3">
+
+                        <label for="NombredelMedicamento" class="form-label">Nombre del medicamento</label>
+                        <input type="text" class="form-control-nuevo mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="...">
+                    </div>
+
+                    <div class="mb-3">
+
+                        <label for="NombredelMedicamento" class="form-label">Laboratorio</label>
+                        <input type="text" class="form-control-nuevo mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="...">
+                    </div>
+                    <div class="mb-3">
+
+                        <label for="NombredelMedicamento" class="form-label">Genérico</label>
+                        <input type="text" class="form-control-nuevo mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="...">
+                    </div>
+                    <button type="button" class="btn btn-outline-dark">Aceptar</button>
+                </form>
+            </p>
+            
+        </div>
+
+    </section>
+   
+   
+
+    <!--Medicamento encontrado-->
+
+    <section class="datos-medicamento">
+        <div>
+            <p><img src="" alt=""></p>
+            <p class="titulo-datos">Datos del Medicamento</p>
+            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estun libro de textos especimen. No sólo sobrevivi</p>
+        </div>
+
+    </section>
+    <!--Acciones para hacer con el medicamento-->
+
+    <section class="acciones-medicamento">
+        <p class="guardar">Guardar Medicamento</p>
+        <p class="compartir">Compartir Medicamento</p>
+        <p class="descargar">Descargar Medicamento</p>
+
+        <!--Faltan iconos-->
+
+    </section>
+</main>
+
+    <!-- Footer -->
+    <footer>
+        <section class="redes-sociales">
+            <div class="iconos-redes">
+                <img src="images/whatsapp.png" alt="Whatsapp">
+                <img src="images/facebook.png" alt="Facebook">
+                <img src="images/instagram.png" alt="Instagram"></div>
+                <div class="derechos"> <p>Todos Los Derechos Reservados © 2024 MediSin T.A.C.C</p></div>
+        </section>
+        
+    </footer>
+    <!--CDN js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
+
+</body>
+</html>

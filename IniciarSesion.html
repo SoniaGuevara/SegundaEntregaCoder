@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Inicio de sesión</title>
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+
+ <!--Header -->
+    
+ <header>
+    <nav class="navbar navbar-expand-lg header-principal">
+        <div class="container-fluid">
+            <img src="images/logoDibujo.png" alt="Logo" class="logo-header">
+            <img src="images/logoLetras.png" alt="Logo" class="logo-header-letras" "navbar-brand">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end button_container" id="navbarNav">
+            <ul class="navbar-nav btn">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acercaDe.html">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+
+    <!--Main -->
+
+
+    <main>
+
+        <section class="acerca-de-main row text-center content">
+            <div class="col">
+                <p class="titulos">
+                    Crea tu cuenta y disfruta de nuestros beneficios
+                </p>
+                <p>
+                    Si sos nuevo, crea tu cuenta aquí
+                </p>
+                <img src="images/log-in.png" alt="Comidas Sin Gluten" class="imagen-log-in d-block mx-auto justify-content-center">
+                
+               
+            </div>
+            <div class="dudas col">
+                <p class="titulos">
+                    Si ya tienes tu cuenta, ingresa tus datos aquí.
+                </p>
+                <p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email o Nombre de usuario</label>
+                            <input type="email" class="form-control-nuevo mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="@">
+                            <div id="emailHelp" class="form-text">Nunca vamos a compartir tus datos con nadie.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control-nuevo mx-auto" id="exampleInputPassword1" placeholder="*****">
+                        </div>
+                        <button type="button" class="btn btn-outline-dark">Aceptar</button>
+                    </form>
+                </p>
+                
+            </div>
+    
+        </section>
+    </main>
+        
+    <!--Footer-->
+
+        <footer>
+            <section class="redes-sociales">
+                <div class="iconos-redes">
+                    <img src="images/whatsapp.png" alt="Whatsapp">
+                    <img src="images/facebook.png" alt="Facebook">
+                    <img src="images/instagram.png" alt="Instagram"></div>
+                    <div class="derechos"> <p>Todos Los Derechos Reservados © 2024 MediSin T.A.C.C</p></div>
+            </section>
+            
+        </footer>
+        <!--CDN js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
+</body>
+</html>
