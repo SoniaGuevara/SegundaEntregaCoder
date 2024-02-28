@@ -299,7 +299,7 @@ main .circles li {
   height: 5px;
   animation: animate 10s linear infinite;
   bottom: -150px;
-  background-image: url(/images/icon-pastilla-2.png);
+  background-image: url(../images/icon-pastilla-2.png);
   background-size: cover;
   background-position: center;
 }
