@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+.fondo-body-home{
+
+    background-color: rgba(125, 131, 79, 0.1);
+    font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+main{
+
+    .titulos {
+        display: flex;
+    justify-content: center;
+    padding: 20px;
+    @include letras-titulos (150%,"Montserrat Alternates");
+    font-weight: 300;
+  font-style: italic;
+
+
+
+    }
+
+
+
+    .datos-medicamento{
+
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        font-family:'Ubuntu';
+
+    }
+
+    .guardar , .compartir , .descargar {
+        padding: 10px;
+        background-color: #f6dcac;
+        margin: 5px;
+        @extend %botones;
+        
+     }
+}
+
+
+ 

@@ -1,43 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="fondo-body-index">
+
+    <main class="content-fluid">
+
+        <!-- Animación del fondo -->
        
-        <!--CSS-->
-        <link rel="stylesheet" href="style.css">
-        
-        <title>Inicio</title>
-    </head>
-    <body class="fondo-main">
-       
-    <!--Principal-->
-        <section class="principal-index">
+
+        <!-- Principal -->
+        <section class="principal-index text-center">
+
             
-            <div class="imagenes-main">
-                <img src="images/logoDibujo.png" alt="Logo dibujo">
-                <img src="images/logoLetras.png" alt="Logo letras">
-                <p>
-                    <a href="home.html" target="_blank">
-                        <button type="button" class="boton-index"> Presiona aquí para comenzar con la experencia </button>
-                    </a>
-                </p>
-            </div>
+            <div class="container">
+                <div class="row justify-content-center align-items-center vh-100">
+                    <div class="col-lg-6 imagenes-main">
+                        <img src="images/logoDibujo.png" alt="Logo dibujo" class="img-fluid mb-3 animate__animated animate__fadeInLeft">
+                        <img src="images/logoLetras.png" alt="Logo letras" class="img-fluid mb-3 animate__animated animate__fadeInRight">
+                        <p class="animate__animated animate__fadeInUp">
+                            <a href="pages/home.html" target="_blank">
+                                <button type="button" class="boton-index">Ver más</button>
+                            </a>
+                        </p>
+                        <div class="area">
+                            <ul class="circles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                
+            
         </section> 
 
-   <!--Footer-->
+  
 
-    <footer>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5">
         <section class="redes-sociales">
-            <div class="iconos-redes">
-               <!--<a href="https://www.google.com" target="_blank">--> 
-                <img src="images/whatsapp.png" alt="Whatsapp">
-                <img src="images/facebook.png" alt="Facebook">
-                <img src="images/instagram.png" alt="Instagram"></div>
-                <div class="derechos"> <p>Todos Los Derechos Reservados © 2024 MediSin T.A.C.C</p></div>
+            <div class="iconos-redes text-center">
+                <img src="/images/whatsapp.png" alt="Whatsapp">
+                <img src="/images/facebook.png" alt="Facebook">
+                <img src="/images/instagram.png" alt="Instagram">
+            </div>
+            <div class="derechos text-center"> <p>Todos Los Derechos Reservados © 2024 MediSin T.A.C.C</p></div>
         </section>
-        
     </footer>
-    
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Animate JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js"></script>
 </body>
 </html>
+
+
+
+

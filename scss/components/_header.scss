@@ -1,0 +1,155 @@
+
+header {
+
+    .header-principal{
+
+        background-color: #f6dcac;
+        font-size: 150%;
+        border-bottom: rgba(0, 0, 0, 0.11) 0.5px groove;
+
+
+        .logo-header{
+
+            width: 10%;
+            height: auto;
+
+
+        }
+    }
+
+    
+    .logo-header-letras{
+        width: 15%;
+        height: auto;
+
+    }
+
+
+    .nav-item{ 
+            
+            background-color: transparent; /* Color de fondo inicial */
+            transition: background-color 0.3s ease; /* Transición */
+
+            &:hover{background-color: #f1bb47a1; /* Cambia el color de fondo al pasar el mouse */
+            }
+        }
+           
+    .li{
+         padding: 10px;
+         background-color: #f6dcac;
+         margin: 5px;
+         @include letras-titulos (150%,"Montserrat Alternates");
+         font-weight: 300;
+       font-style: italic;;}
+
+        
+}
+
+.circles {
+        li {
+            opacity: 0; /* Hace que el elemento esté completamente transparente */
+            transition: opacity 0.01s; 
+            position: absolute;
+            display: block;
+            list-style: none;
+            width: 5px;
+            height: 5px;
+            animation: animate 20s linear infinite;
+            bottom: -100px;
+            background-image: url(/images/icon-pastilla-2.png);
+            background-size: cover;
+            background-position: center;
+    
+           
+            &:nth-child(1) {
+                left: 25%;
+                width: 20px;
+                height: 20px;
+                animation-delay: 0s;
+            }
+       
+            &:nth-child(2) {
+                left: 10%;
+                width: 20px;
+                height: 20px;
+                animation-delay: 2s;
+                animation-duration: 12s;
+            }
+       
+            &:nth-child(3) {
+                left: 20%;
+                width: 20px;
+                height: 20px;
+                animation-delay: 4s;
+            }
+       
+            &:nth-child(4) {
+                left: 40%;
+                width: 30px;
+                height: 30px;
+                animation-delay: 0s;
+                animation-duration: 18s;
+            }
+       
+            &:nth-child(5) {
+                left: 65%;
+                width: 20px;
+                height: 20px;
+                animation-delay: 0s;
+            }
+       
+            &:nth-child(6) {
+                left: 75%;
+                width: 50px;
+                height: 50px;
+                animation-delay: 3s;
+            }
+       
+            &:nth-child(7) {
+                left: 35%;
+                width: 20px;
+                height: 20px;
+                animation-delay: 7s;
+            }
+       
+            &:nth-child(8) {
+                left: 50%;
+                width: 25px;
+                height: 25px;
+                animation-delay: 15s;
+                animation-duration: 45s;
+            }
+       
+            &:nth-child(9) {
+                left: 10%;
+                width: 50px;
+                height: 50px;
+                animation-delay: 3s;
+                animation-delay: 2s;
+                animation-duration: 35s;
+            }
+       
+            &:nth-child(10) {
+                left: 75%;
+                width: 50px;
+                height: 50px;
+                animation-delay: 3s;
+            
+        }
+    }
+
+    @keyframes animate {
+        0% {
+            transform: translateY(0) rotate(0deg);
+            opacity: 1;
+            border-radius: 0;
+        }
+    
+        100% {
+            transform: translateY(-1000px) rotate(720deg);
+            opacity: 1;
+            border-radius: 50%;
+        }
+    }
+
+}

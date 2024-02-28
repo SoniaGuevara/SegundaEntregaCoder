@@ -1,0 +1,36 @@
+
+.fondo-body-home{
+
+    background-color: rgb(125 131 79 / 10%);
+
+}
+
+main {
+
+    .acerca-de-main{
+
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        padding:  10px 50px;
+        margin-top: 50px;
+        font-size: 150%;
+
+        .comida-sin-gluten{
+
+            width: 70%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+         
+
+
+            .dudas{
+                margin: 20px;
+                padding: 20px;
+
+
+            }
+        }
+    }
+}

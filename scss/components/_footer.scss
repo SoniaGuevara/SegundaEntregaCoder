@@ -1,0 +1,31 @@
+
+footer {
+    
+    .redes-sociales{ 
+        background-color: #FF0000B3;
+        color: #f6dcac;
+        padding: 30px;
+        
+        border-top: rgba(0, 0, 0, 0.308) 0.5px groove;
+        
+
+        .iconos-redes{
+            display: flex;
+            justify-content: center;
+
+            .derechos{
+                display:flex;
+                justify-content: center;
+                font-family:'Ubuntu';
+                text-align: center;
+                font-size: 70%;
+                padding: 2vh;
+
+
+
+            }
+        }
+    }
+
+}
+
