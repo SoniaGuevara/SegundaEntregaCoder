@@ -165,9 +165,7 @@ footer .redes-sociales .iconos-redes .derechos {
   background-color: rgba(125, 131, 79, 0.1);
 }
 
-main {
-  /*Formulario Inicio se sesion*/
-}
+
 main .acerca-de-main {
   display: flex;
   justify-content: center;
